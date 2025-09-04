@@ -2,11 +2,13 @@
 
 int main (){
 
-    int numerosinal = 3000000000;
-    unsigned int numerosemsinal = 300000000;
+    int a = 10;
+    int b = 20;
 
-    printf("Numero com sinal: %d\n", numerosinal);
-    printf("Numero sem sinal: %u\n", numerosemsinal); 
+    printf("Se a > b %d\n", a > b);
+    printf("Se a < b %d\n", a < b);
+    printf("Se a == b %d\n", a == b);
+    printf("Se a != b %d\n", a != b);
 
     return 0;
 
